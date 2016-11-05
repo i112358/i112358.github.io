@@ -3,6 +3,10 @@ body {
 	  font-family: Verdana, sans-serif;
   }
   
+html, body{
+	height: 100%;
+}
+  
 .jumbotron{
 	color: #fff;
 	background-color: #008080;
@@ -12,6 +16,9 @@ body {
 
 .container-fluid {
     padding: 60px 50px;
+}
+
+#ABOUT, #LIFE, #PORTFOLIO, #CONTACT{
 	height: 90%;
 }
 
