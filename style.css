@@ -12,6 +12,7 @@ body {
 
 .container-fluid {
     padding: 60px 50px;
+	height: 90%;
 }
 
 .logo-small {
