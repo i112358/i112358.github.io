@@ -12,6 +12,7 @@ html, body{
 	background-color: #008080;
 	font-family: Montserrat, sans-serif;
 	padding: 100px 25px;
+	margin-top: 10%;
 	height: 90%;
 }
 
@@ -20,7 +21,7 @@ html, body{
 }
 
 #ABOUT, #LIFE, #PORTFOLIO, #CONTACT{
-	height: 90%;
+	height: 100%;
 }
 
 .logo-small {
