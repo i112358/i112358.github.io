@@ -12,7 +12,9 @@ html, body{
 	background-color: #008080;
 	font-family: Montserrat, sans-serif;
 	padding: 100px 25px;
-	margin-top: 2px;
+	border-top-style: solid;
+	border-top-color: #FFF;
+	border-top-width: 2px;
 	height: 100%;
 }
 
@@ -70,5 +72,5 @@ html, body{
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #f4511e;
+    color: #008080;
 }
