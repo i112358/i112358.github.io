@@ -15,7 +15,9 @@ html, body{
 	border-top-style: solid;
 	border-top-color: #FFF;
 	border-top-width: 2px;
-	height: 100%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
 }
 
 .container-fluid {
