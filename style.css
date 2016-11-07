@@ -12,12 +12,7 @@ html, body{
 	background-color: #008080;
 	font-family: Montserrat, sans-serif;
 	padding: 100px 25px;
-	border-top-style: solid;
-	border-top-color: #FFF;
-	border-top-width: 2px;
-	height: 80%;
-	position: absolute;
-	bottom: 0;
+	height: 100%;
 }
 
 .container-fluid {
@@ -49,8 +44,10 @@ html, body{
     margin-bottom: 0;
     background-color: #008080;
 	font-family: Montserrat, sans-serif;
-    z-index: 9999;
-    border: 0;
+
+	border-bottom-style: solid;
+	border-color: #FFF;
+	border-bottom-width: 2px;
     font-size: 12px !important;
     line-height: 1.42857143 !important;
     letter-spacing: 4px;
