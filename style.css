@@ -86,3 +86,8 @@ footer .glyphicon {
     margin-bottom: 20px;
     color: #008080;
 }
+
+#lastDate{
+	color: #000000;
+	font-family: Montserrat, sans-serif;
+}

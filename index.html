@@ -26,6 +26,7 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
+		<li><a href="#TOP">TOP</a><li>
         <li><a href="#ABOUT">ABOUT</a></li>
         <li><a href="#LIFE">LIFE</a></li>
         <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
@@ -35,7 +36,7 @@
   </div>
 </nav>
 
-<div class="jumbotron text-center">
+<div id="TOP" class="jumbotron text-center">
   <h1>Rachel Chang</h1> 
   <p><i>Almost</i> fresh graduate from School of Information Sciences, University of Pittsburgh</p>
   <p>Focused on human-centered computing</p>
@@ -147,7 +148,11 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="http://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p> 
+  <div id="lastDate"></div>
+  <script type="text/javascript">
+	var d = new Date(document.lastModified);
+	document.getElementById("lastDate").innerHTML = "Last updated "+d.toDateString();
+  </script>  
 </footer>
 
 </body>
