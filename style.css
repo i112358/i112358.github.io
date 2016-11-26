@@ -37,6 +37,13 @@ html, body{
 	height: 100%;
 }
 
+#ABOUT {
+	background-image: url("images/inchicago.jpg");
+	background-size: contain;
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
 .logo-small {
     color: #008080;
     font-size: 50px;
