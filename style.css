@@ -88,10 +88,23 @@ html, body{
     color: #fff !important;
 }
 
-footer .glyphicon {
-    font-size: 20px;
+.glyphicon.glyphicon-chevron-up{
+	font-size:1.5em;
     margin-bottom: 20px;
     color: #008080;
+}
+
+.back-to-top{
+	display: inline-block;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	visibility: hidden;
+	transition: all 0.3s;
+}
+
+.back-to-top.set-visible{
+	visibility: visible;
 }
 
 #lastDate{

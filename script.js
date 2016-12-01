@@ -1,7 +1,9 @@
 //smooth scrolling
 $(document).ready(function(){
+  //Initialize tooltips
+  $('[data-toggle="tooltip"]').tooltip(); 
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, .back-to-top").on('click', function(event) {
 
    // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
@@ -23,4 +25,10 @@ $(document).ready(function(){
       });
     } // End if
   });
+  //Show back to top button
+  var offset = 300;
+  $back_to_top = $('.back-to-top');
+  $(window).scroll(function(){
+		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('set-visible') : $back_to_top.removeClass('cd-is-visible');
+	});
 })
