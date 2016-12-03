@@ -33,7 +33,7 @@ html, body{
     padding: 60px 50px;
 }
 
-#ABOUT, #LIFE, #PORTFOLIO, #CONTACT{
+#ABOUT, #SKILLS, #PORTFOLIO, #CONTACT{
 	height: 100%;
 }
 
@@ -60,6 +60,8 @@ html, body{
     height: 100%;
     margin-bottom: 10px;
 }
+
+/* Top nav bar */
 
 .navbar {
     margin-bottom: 0;
@@ -88,6 +90,8 @@ html, body{
     color: #fff !important;
 }
 
+/* Back to top button */
+
 .glyphicon.glyphicon-chevron-up{
 	font-size:1.5em;
     margin-bottom: 20px;
@@ -110,4 +114,46 @@ html, body{
 #lastDate{
 	color: #000000;
 	font-family: Montserrat, sans-serif;
+}
+
+/* Do radial progress bars for skills */
+
+.skill{
+	position: relative;
+	height: 100px;
+}
+
+.radial-progress{
+	position: absolute;
+	width: 100%;
+}
+
+.right-circle, .html-mask, .css-mask, .js-mask, .c-mask, .csharp-mask, .java-mask{
+  position: absolute;
+  left: -50px;
+  background-color: #008080;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  clip: rect(0px, 100px, 100px, 50px);
+}
+
+.html-mask, .css-mask, .js-mask, .c-mask, .csharp-mask, .java-mask{
+  transform: rotate(90deg);
+}
+
+.layover{
+  position: absolute;
+  background-color: #fff;
+  color: #008080;
+  top: 10px;
+  left: -40px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  z-index: 10;
+  font-family: montserrat;
+  line-height: 80px;
+  text-align: center;
 }
