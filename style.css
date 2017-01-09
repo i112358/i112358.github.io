@@ -139,8 +139,20 @@ html, body{
   clip: rect(0px, 100px, 100px, 50px);
 }
 
-.html-mask, .css-mask, .js-mask, .c-mask, .csharp-mask, .java-mask{
+.html-mask, .java-mask{
   transform: rotate(90deg);
+}
+
+.css-mask{
+	transform: rotate(100deg);
+}
+
+.js-mask{
+	transform: rotate(30deg);
+}
+
+.c-mask, .csharp-mask{
+	
 }
 
 .layover{
