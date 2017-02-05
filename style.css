@@ -9,6 +9,7 @@ html, body{
 }
   
 .jumbotron{
+	height: 100%;
 	color: #fff;
 	background-color: #008080;
 	font-family: Montserrat, sans-serif;
@@ -34,15 +35,15 @@ html, body{
 
 
 #TOP, #ABOUT, #SKILLS, #PORTFOLIO, #CONTACT{
-	height: 100%;
 	overflow: hidden;
 }
 
 #ABOUT {
-	background-image: url("images/inchicago.jpg");
-	background-size: contain;
-	background-position: right center;
-	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+#prof_pic{
+	border-radius:50%;
 }
 
 .logo-small {
@@ -177,4 +178,9 @@ html, body{
   font-family: montserrat;
   line-height: 80px;
   text-align: center;
+}
+
+/*List padding*/
+.aboutList li{
+	padding-bottom: .5em;
 }
