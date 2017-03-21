@@ -1,7 +1,7 @@
 //smooth scrolling
 $(document).ready(function(){
   //Initialize tooltips
-  $('[data-toggle="tooltip"]').tooltip(); 
+  $('[data-toggle="tooltip"]').tooltip();
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, .back-to-top").on('click', function(event) {
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     // Store hash
     var hash = this.hash;
-	
+
 	// Using jQuery's animate() method to add smooth page scroll
     // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
     $('html, body').animate({
@@ -31,4 +31,9 @@ $(document).ready(function(){
   $(window).scroll(function(){
 		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('set-visible') : $back_to_top.removeClass('cd-is-visible');
 	});
+
+  //show text when hover button
+  $(".expand").hover(function(){
+    $(this).next().slideToggle("slow");
+  });
 })

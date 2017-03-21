@@ -2,12 +2,12 @@ body {
       position: relative;
 	  font-family: Verdana, sans-serif;
   }
-  
+
 html, body{
 	height: 100%;
 	width: 100%;
 }
-  
+
 .jumbotron{
 	height: 100%;
 	color: #fff;
@@ -92,6 +92,11 @@ html, body{
     color: #fff !important;
 }
 
+/*Show when hover*/
+.slideIn{
+  display: none;
+}
+
 /* Back to top button */
 
 .glyphicon.glyphicon-chevron-up{
@@ -118,69 +123,12 @@ html, body{
 	font-family: Montserrat, sans-serif;
 }
 
-/* Do radial progress bars for skills */
-
-.skill{
-	position: relative;
-	height: 100px;
-}
-
-.radial-progress{
-	position: absolute;
-	width: 100%;
-}
-
-.right-circle, .html-mask, .css-mask, .js-mask, .c-mask, .csharp-mask, .java-mask{
-  position: absolute;
-  left: -50px;
-  background-color: #008080;
-  text-align: center;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  clip: rect(0px, 100px, 100px, 50px);
-}
-
-.html-mask{
-  transform: rotate(90deg);
-}
-
-.css-mask{
-	transform: rotate(100deg);
-}
-
-.js-mask{
-	transform: rotate(40deg);
-}
-
-.csharp-mask{
-	transform: rotate(30deg);
-}
-
-.c-mask{
-	transform: rotate(10deg);
-}
-
-.java-mask{
-	transform: rotate(100deg);
-}
-
-.layover{
-  position: absolute;
-  background-color: #fff;
-  color: #008080;
-  top: 10px;
-  left: -40px;
-  height: 80px;
-  width: 80px;
-  border-radius: 50%;
-  z-index: 10;
-  font-family: montserrat;
-  line-height: 80px;
-  text-align: center;
-}
-
 /*List padding*/
 .aboutList li{
 	padding-bottom: .5em;
+}
+
+/*Bootstrap class*/
+.row{
+  text-align: center;
 }
